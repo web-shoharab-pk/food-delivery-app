@@ -67,7 +67,7 @@ import { icons, images } from "../constants"
  export   const RestaurantData = [
         {
             id: 1,
-            name: "ByProgrammers Burger",
+            name: "SHOHARAB Burger",
             rating: 4.8,
             categories: [5, 7],
             priceRating: affordable,
@@ -110,7 +110,7 @@ import { icons, images } from "../constants"
         },
         {
             id: 2,
-            name: "ByProgrammers Pizza",
+            name: "SHOHARAB Pizza",
             rating: 4.8,
             categories: [2, 4, 6],
             priceRating: expensive,
@@ -161,7 +161,7 @@ import { icons, images } from "../constants"
         },
         {
             id: 3,
-            name: "ByProgrammers Hotdogs",
+            name: "SHOHARAB Hotdogs",
             rating: 4.8,
             categories: [3],
             priceRating: expensive,
@@ -188,7 +188,7 @@ import { icons, images } from "../constants"
         },
         {
             id: 4,
-            name: "ByProgrammers Sushi",
+            name: "SHOHARAB PK Sushi",
             rating: 4.8,
             categories: [8],
             priceRating: expensive,
@@ -215,7 +215,7 @@ import { icons, images } from "../constants"
         },
         {
             id: 5,
-            name: "ByProgrammers Cuisine",
+            name: "SHOHARAB Cuisine",
             rating: 4.8,
             categories: [1, 2],
             priceRating: affordable,
@@ -268,7 +268,7 @@ import { icons, images } from "../constants"
         {
 
             id: 6,
-            name: "ByProgrammers Dessets",
+            name: "SHOHARAB Dessets",
             rating: 4.9,
             categories: [9, 10],
             priceRating: affordable,
