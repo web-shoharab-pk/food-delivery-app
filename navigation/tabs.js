@@ -26,7 +26,7 @@ const TabBarCustomButton = ({ accessibilityState, children, onPress }) => {
                             fill={COLORS.white}
                         />
                     </Svg>
-                    <View style={{ flex: 1, backgroundColor: COLORS.white }}><Text>{'  '}</Text></View>
+                    <View style={{ flex: 1, backgroundColor: COLORS.white }}><Text>{'    '}</Text></View>
                 </View>
 
                 <TouchableOpacity
