@@ -1,4 +1,4 @@
-import { images, icons } from "../constants"
+import { icons, images } from "../constants"
 
 
 

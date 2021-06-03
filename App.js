@@ -1,12 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native'; 
+import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { NavigationContainer } from '@react-navigation/native'; 
+import React from 'react';
 // import {Home, Restaurent, OrderDelivery} from './Screen'
 import Tabs from './navigation/tabs';
-import Restaurent from './Screen/Restaurent';
 import OrderDelivery from './Screen/OrderDelivery';
+import Restaurant from './Screen/Restaurant';
 
 const Stack = createStackNavigator();
 
@@ -21,7 +19,7 @@ const Stack = createStackNavigator();
           initialRouteName={"Home"}
        >
          <Stack.Screen name="Home" component={Tabs} />
-         <Stack.Screen name="Restaurent" component={Restaurent} />
+         <Stack.Screen name="Restaurant" component={Restaurant} />
          <Stack.Screen name="OrderDelivery" component={OrderDelivery} />
        </Stack.Navigator>
      </NavigationContainer>

@@ -15,7 +15,7 @@ const TabBarCustomButton = ({ accessibilityState, children, onPress }) => {
         return (
             <View style={{ flex: 1, alignItems: "center" }}>
                 <View style={{ flexDirection: 'row', position: 'absolute', top: 0 }}>
-                    <View style={{ flex: 1, backgroundColor: COLORS.white }}><Text>{'   '}</Text></View>
+                    <View style={{ flex: 1, backgroundColor: COLORS.white }}><Text>{'  '}</Text></View>
                     <Svg
                         width={75}
                         height={61}
@@ -26,7 +26,7 @@ const TabBarCustomButton = ({ accessibilityState, children, onPress }) => {
                             fill={COLORS.white}
                         />
                     </Svg>
-                    <View style={{ flex: 1, backgroundColor: COLORS.white }}><Text>{'    '}</Text></View>
+                    <View style={{ flex: 1, backgroundColor: COLORS.white }}><Text>{'   '}</Text></View>
                 </View>
 
                 <TouchableOpacity
